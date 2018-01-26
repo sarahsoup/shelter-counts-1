@@ -230,13 +230,13 @@ d3.csv(link, parse, function(err,counts){
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
-    .text(`dogs and cats that enter a shelter in the U.S., `);
+    .text(`dogs and cats that entered a shelter in the U.S., `);
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
     .attr('x',(w/2)+'px')
     .attr('dy','1.4em')
-    .text(`there are `);
+    .text(`there were `);
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
@@ -245,7 +245,7 @@ d3.csv(link, parse, function(err,counts){
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
-    .text(`shelter dogs and cats that have a live outcome, and `);
+    .text(`shelter dogs and cats that had a live outcome, and `);
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
@@ -254,7 +254,7 @@ d3.csv(link, parse, function(err,counts){
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
-    .text(`that does not.`);
+    .text(`that did not.`);
   ratioText
     .append('tspan')
     .attr('id','ratio-shelters')
