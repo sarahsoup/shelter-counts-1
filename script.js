@@ -230,7 +230,7 @@ d3.csv(link, parse, function(err,counts){
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
-    .text(`dogs and cats that entered a shelter in the U.S., `);
+    .text(`animals that entered a shelter in the U.S., `);
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
@@ -245,7 +245,7 @@ d3.csv(link, parse, function(err,counts){
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
-    .text(`shelter dogs and cats that had a live outcome, and `);
+    .text(`shelter animals that had a live outcome, and `);
   ratioText
     .append('tspan')
     .attr('class','ratio-text')
